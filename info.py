@@ -14,14 +14,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '15823382'))
 API_HASH = environ.get('API_HASH', '016d5e115a06ddfb6121823d72ae4d8c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5580813031:AAEyAVNcJoK5HMy45c9Q-Hk13Tfqg7O5p3U")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5591577616:AAHUE8cMGXAVvJmRdBSwr1Jsfpz4Ltt93LU")
 
 #Port
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', false))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/32a545bcc5540e0501a54.jpg')).split()
 
 # Admins, Channels & Users
@@ -71,8 +71,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'CIZHYxGHiwhEBAEDekLUIkGqKgi2')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '6435420271000057c2055fff45b9e30804ef896b')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
